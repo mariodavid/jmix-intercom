@@ -1,5 +1,4 @@
 package io.jmix.intercom.view.component;
-import com.vaadin.flow.component.JsonSerializable;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.littemplate.LitTemplate;

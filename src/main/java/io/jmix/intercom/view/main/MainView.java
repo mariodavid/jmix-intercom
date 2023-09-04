@@ -22,15 +22,13 @@ public class MainView extends StandardMainView {
 
     @Autowired
     private CurrentAuthentication currentAuthentication;
-    @Autowired
-    private Views views;
 
     @Subscribe
     public void onInit(final InitEvent event) {
         
         User user = (User) currentAuthentication.getUser();
         IntercomWidget intercom = new IntercomWidget(
-                "s34blqos",
+                "<<YOUR_APP_ID>>",
                 user.getEmail(),
                 user.getId().toString()
         );
